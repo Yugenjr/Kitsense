@@ -1,0 +1,42 @@
+{
+  "kits": [
+    {
+      "kit_id": "RX-101",
+      "order_ids": ["ORD-1001", "ORD-1002"],
+      "kit_name": "Line Follower Robot",
+      "age_group": "10-14",
+      "difficulty": "Beginner",
+      "stages": [
+        {
+          "name": "Body Making",
+          "content": "Build the robot chassis and place motors in balanced positions.",
+          "story_card": "You are designing a race car body to glide through futuristic tracks."
+        },
+        {
+          "name": "Circuit Building",
+          "content": "Connect IR sensors and motor driver board according to the color wiring guide.",
+          "story_card": "Your robot is learning to see black lines like laser roads in a neon city."
+        }
+      ]
+    },
+    {
+      "kit_id": "RX-202",
+      "order_ids": ["ORD-2201", "ORD-2202"],
+      "kit_name": "Obstacle Avoider Robot",
+      "age_group": "12-16",
+      "difficulty": "Intermediate",
+      "stages": [
+        {
+          "name": "Frame Assembly",
+          "content": "Mount wheels, motors, and caster to create a stable frame.",
+          "story_card": "You are building an explorer rover for a moon mission."
+        },
+        {
+          "name": "Sensor Logic",
+          "content": "Attach ultrasonic module and test distance-trigger behavior.",
+          "story_card": "Your rover uses sound pulses like superhero radar to avoid meteors."
+        }
+      ]
+    }
+  ]
+}
