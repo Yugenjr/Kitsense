@@ -10,7 +10,7 @@ Instead of building one bot per kit, this architecture uses:
 - **Single chatbot backend API**
 - **Kit knowledge database**
 - **ML stage-classification layer**
-- **Embeddable neon-themed frontend widget**
+- **Embeddable professional frontend widget**
 
 Flow:
 
@@ -23,7 +23,7 @@ Flow:
 ## 2) System Architecture
 
 - **Frontend (`frontend/`)**
-  - Attractive neon-blue-on-black UI
+  - Professional clean UI suitable for web portals and dashboards
   - “Coding” aesthetic via `Fira Code` + `Space Grotesk`
   - Can be embedded across web dashboards / portals
 

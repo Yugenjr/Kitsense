@@ -1,17 +1,19 @@
 :root {
-  --bg: #070b15;
-  --panel: #0e1630;
-  --line: #1db8ff;
-  --line-soft: #1787c2;
-  --text: #d7ebff;
-  --muted: #89a5be;
+  --bg: #f4f7fb;
+  --panel: #ffffff;
+  --line: #1f6feb;
+  --line-soft: #3b82f6;
+  --text: #0f172a;
+  --muted: #475569;
+  --border: #d8e0ea;
 }
 
 * { box-sizing: border-box; }
+
 body {
   margin: 0;
-  font-family: 'Space Grotesk', sans-serif;
-  background: radial-gradient(circle at 20% 10%, #13274f 0%, var(--bg) 45%, #030509 100%);
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(180deg, #f8fbff 0%, #eef3f9 100%);
   min-height: 100vh;
   color: var(--text);
   display: grid;
@@ -20,67 +22,71 @@ body {
 
 .app-shell {
   width: min(920px, 92vw);
-  border: 1px solid #1f3859;
-  background: linear-gradient(160deg, #091227 0%, #060b17 100%);
-  box-shadow: 0 0 32px rgba(0, 183, 255, 0.22);
-  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  border-radius: 14px;
   padding: 24px;
 }
 
 h1 {
   margin: 4px 0;
-  font-size: clamp(1.5rem, 2vw, 2.3rem);
+  font-size: clamp(1.5rem, 2vw, 2.1rem);
 }
 
-h1 span { color: #31c8ff; text-shadow: 0 0 12px rgba(49, 200, 255, 0.5); }
+h1 span { color: var(--line); }
+
 .badge {
   display: inline-block;
-  font-family: 'Fira Code', monospace;
-  color: #90d9ff;
-  font-size: 0.8rem;
-  border: 1px solid #1f4d77;
-  border-radius: 20px;
+  font-family: 'JetBrains Mono', monospace;
+  color: #1d4ed8;
+  font-size: 0.78rem;
+  border: 1px solid #bfdbfe;
+  border-radius: 18px;
   padding: 4px 10px;
+  background: #eff6ff;
 }
 
 .sub { color: var(--muted); margin-bottom: 18px; }
+
 .panel {
-  border: 1px solid #1a4061;
-  border-radius: 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
   padding: 16px;
   margin-bottom: 16px;
-  background: rgba(8, 17, 35, 0.95);
+  background: #ffffff;
 }
 
 .row { display: flex; gap: 10px; }
+
 input {
   flex: 1;
-  background: #040913;
-  border: 1px solid #1d4f73;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
   color: var(--text);
   border-radius: 10px;
   padding: 11px 12px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 button {
-  background: linear-gradient(180deg, #2ec8ff, #0d89cd);
-  color: #01111f;
+  background: linear-gradient(180deg, var(--line-soft), var(--line));
+  color: #ffffff;
   border: none;
   border-radius: 10px;
   padding: 10px 14px;
-  font-weight: 700;
+  font-weight: 600;
   cursor: pointer;
 }
 
 .chat-window {
   height: 310px;
   overflow-y: auto;
-  border: 1px solid #173d62;
+  border: 1px solid #cbd5e1;
   border-radius: 12px;
   margin-bottom: 10px;
   padding: 10px;
-  background: rgba(0, 0, 0, 0.35);
+  background: #f8fafc;
 }
 
 .bubble {
@@ -89,6 +95,8 @@ button {
   margin: 8px 0;
   line-height: 1.4;
 }
-.bubble.user { background: #143559; }
-.bubble.bot { background: #0f243b; border-left: 3px solid var(--line); }
-.meta { color: #75bbde; font-size: 0.9rem; }
+
+.bubble.user { background: #dbeafe; }
+.bubble.bot { background: #eff6ff; border-left: 3px solid var(--line); }
+
+.meta { color: #334155; font-size: 0.9rem; }
