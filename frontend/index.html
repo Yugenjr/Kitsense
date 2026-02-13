@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brand X Neon Tutor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header>
+      <p class="badge">UNIFIED ROBOTICS TUTOR SDK</p>
+      <h1>Brand X <span>Neon Mentor</span></h1>
+      <p class="sub">One chatbot. Any platform. Dynamic kit intelligence.</p>
+    </header>
+
+    <section class="panel">
+      <label for="identifier">Order ID / Kit ID</label>
+      <div class="row">
+        <input id="identifier" placeholder="Try RX-101 or ORD-2201" />
+        <button id="startBtn">Start</button>
+      </div>
+      <p id="kitMeta" class="meta"></p>
+    </section>
+
+    <section class="panel chat-panel">
+      <div id="chatWindow" class="chat-window"></div>
+      <div class="row">
+        <input id="message" placeholder="Ask about body making, circuit, sensors..." />
+        <button id="sendBtn">Send</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
