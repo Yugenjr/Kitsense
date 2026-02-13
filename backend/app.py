@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from typing import Any, Dict, Optional
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Response, status
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
@@ -44,6 +44,25 @@ def find_kit(identifier: str) -> Optional[Dict[str, Any]]:
         if token == kit["kit_id"] or token in {oid.upper() for oid in kit.get("order_ids", [])}:
             return kit
     return None
+
+
+@app.get("/")
+def root() -> Dict[str, Any]:
+    return {
+        "name": "Brand X Unified Chatbot API",
+        "status": "running",
+        "endpoints": {
+            "health": "/health",
+            "docs": "/docs",
+            "start_session": "/api/session/start",
+            "chat": "/api/chat",
+        },
+    }
+
+
+@app.get("/favicon.ico", include_in_schema=False)
+def favicon() -> Response:
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
 
 
 @app.get("/health")

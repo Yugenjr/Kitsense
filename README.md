@@ -95,6 +95,11 @@ python -m http.server 4173
 ```
 Then open `http://127.0.0.1:4173`.
 
+Backend sanity URLs:
+- `http://127.0.0.1:8000/` (API info)
+- `http://127.0.0.1:8000/health`
+- `http://127.0.0.1:8000/docs`
+
 ## 6) Why this is platform-agnostic
 
 - Backend is exposed as clean REST APIs.
