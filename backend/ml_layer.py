@@ -19,10 +19,11 @@ class StagePrediction:
 
 
 STAGE_KEYWORDS: Dict[str, List[str]] = {
-    "Body Making": ["body", "chassis", "frame", "assemble", "parts", "mechanical"],
-    "Circuit Building": ["circuit", "wire", "sensor", "board", "battery", "connection"],
-    "Frame Assembly": ["frame", "wheel", "mount", "caster", "chassis"],
-    "Sensor Logic": ["ultrasonic", "distance", "logic", "code", "detect", "sensor"],
+    "Mechanical Assembly": ["assemble", "assembly", "chassis", "frame", "parts", "mount", "wheel"],
+    "Electronics Wiring": ["circuit", "wire", "wiring", "sensor", "board", "battery", "connection"],
+    "Testing and Calibration": ["test", "testing", "calibrate", "calibration", "firmware", "threshold"],
+    "Joint Assembly": ["joint", "servo", "gripper", "arm", "shoulder", "elbow"],
+    "Frame and Limb Assembly": ["limb", "balance", "humanoid", "frame", "gyro"],
 }
 
 
@@ -52,8 +53,8 @@ def classify_stage(user_message: str, available_stages: List[str]) -> StagePredi
 
 
 def age_tuned_tone(age_group: str) -> str:
-    if age_group in {"10-14", "8-12"}:
+    if age_group in {"10-14", "8-12", "9-12"}:
         return "Use short, playful sentences with vivid analogies."
-    if age_group in {"12-16", "14-18"}:
+    if age_group in {"12-16", "11-15", "13-17", "14-18"}:
         return "Use encouraging maker language with quick technical explanations."
     return "Use clear and supportive educational language."

@@ -98,6 +98,14 @@ async function sendMessage() {
     }
 
     const data = await res.json();
+    if (data.out_of_scope) {
+      addBubble(data.response);
+      if (data.suggested_questions?.length) {
+        addBubble(`Try: ${data.suggested_questions.join(' | ')}`);
+      }
+      return;
+    }
+
     addBubble(`${data.response} [Stage: ${data.predicted_stage} | Confidence: ${data.confidence}]`);
   } catch {
     addBubble(buildFallbackReply(message));

@@ -24,17 +24,19 @@ Flow:
 
 - **Frontend (`frontend/`)**
   - Professional clean UI suitable for web portals and dashboards
-  - “Coding” aesthetic via `Fira Code` + `Space Grotesk`
+  - “Coding” aesthetic via modern developer-friendly typography
   - Can be embedded across web dashboards / portals
 
 - **Backend (`backend/app.py`)**
   - FastAPI REST endpoints
   - `/api/session/start` for identity and kit resolution
   - `/api/chat` for stage-aware responses
+  - `/api/kits/{kit_id}` for exact case-insensitive kit retrieval
+  - Strict out-of-scope protection so chatbot answers only in selected kit context
 
 - **Data Layer (`backend/kits_data.json`)**
-  - Maps order IDs and kit IDs to kit content
-  - Stores stages, explanations, and story cards
+  - Stores 20 realistic mock kits in a `kits_by_id` dictionary for O(1)-style key lookup
+  - Maps order IDs and kit IDs to stage content, technical explanations, and story narratives
 
 - **ML Layer (`backend/ml_layer.py`)**
   - Lightweight stage classifier (keyword/intention-based baseline)
@@ -59,10 +61,16 @@ Input:
 { "identifier": "RX-101", "message": "I need help wiring sensors" }
 ```
 Returns:
-- Predicted stage
-- Confidence + reasoning
-- Age-tuned tone policy
-- Story-card-based guidance
+- In-scope replies for kit stages (with story card and tone policy)
+- Out-of-scope refusal when question is unrelated to robotics kit learning
+
+
+### Repository function
+`backend/kit_repository.py` includes:
+- `get_kit_by_id(kit_id: str)`
+  - exact match only (no partial matching)
+  - case-insensitive
+  - raises clear `"Kit not found"` error when missing
 
 ## 4) ML Layer Evolution Path (Production)
 
@@ -100,7 +108,28 @@ Backend sanity URLs:
 - `http://127.0.0.1:8000/health`
 - `http://127.0.0.1:8000/docs`
 
-## 6) Why this is platform-agnostic
+## 6) How to build this backend as a real chatbot
+
+1. **Keep identity first**
+   - Always require order ID/kit ID before chat.
+   - Store `session_id -> kit_id` so each user is pinned to one kit context.
+2. **Inject only kit context into prompts**
+   - Build context from selected kit stages, story cards, and troubleshooting docs.
+   - Never send unrelated knowledge chunks to the model.
+3. **Add a strict relevance gate**
+   - If query has no overlap with kit context or robotics intent, refuse and redirect.
+   - Return suggested in-scope questions.
+4. **Use a constrained system prompt with your LLM provider**
+   - Example policy:
+     - "Answer only from provided kit context."
+     - "If context is missing, say you don't know and ask a kit-specific follow-up question."
+     - "Do not answer general world-knowledge questions unrelated to the identified kit."
+5. **Persist conversation state**
+   - Save recent turns and current stage to improve guidance continuity.
+6. **Production essentials**
+   - API auth, rate limits, logging, moderation, and eval dashboards.
+
+## 7) Why this is platform-agnostic
 
 - Backend is exposed as clean REST APIs.
 - Frontend is isolated and can be wrapped as a widget/SDK snippet.
