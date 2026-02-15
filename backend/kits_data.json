@@ -1,0 +1,544 @@
+{
+  "kits_by_id": {
+    "RX-101": {
+      "kit_id": "RX-101",
+      "order_ids": [
+        "ORD-3001",
+        "ORD-3001-A"
+      ],
+      "kit_name": "Line Follower Robot",
+      "age_group": "10-14",
+      "difficulty": "Beginner",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-101A": {
+      "kit_id": "RX-101A",
+      "order_ids": [
+        "ORD-3002",
+        "ORD-3002-A"
+      ],
+      "kit_name": "Line Follower Robot Pro",
+      "age_group": "11-15",
+      "difficulty": "Beginner",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-101B": {
+      "kit_id": "RX-101B",
+      "order_ids": [
+        "ORD-3003",
+        "ORD-3003-A"
+      ],
+      "kit_name": "Line Follower Robot Plus",
+      "age_group": "11-15",
+      "difficulty": "Intermediate",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-0101": {
+      "kit_id": "RX-0101",
+      "order_ids": [
+        "ORD-3004",
+        "ORD-3004-A"
+      ],
+      "kit_name": "Line Follower Robot Lite",
+      "age_group": "9-12",
+      "difficulty": "Beginner",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-202": {
+      "kit_id": "RX-202",
+      "order_ids": [
+        "ORD-3005",
+        "ORD-3005-A"
+      ],
+      "kit_name": "Obstacle Avoider Robot",
+      "age_group": "12-16",
+      "difficulty": "Intermediate",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-202X": {
+      "kit_id": "RX-202X",
+      "order_ids": [
+        "ORD-3006",
+        "ORD-3006-A"
+      ],
+      "kit_name": "Obstacle Avoider X",
+      "age_group": "13-17",
+      "difficulty": "Intermediate",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-303": {
+      "kit_id": "RX-303",
+      "order_ids": [
+        "ORD-3007",
+        "ORD-3007-A"
+      ],
+      "kit_name": "Bluetooth Controlled Rover",
+      "age_group": "12-16",
+      "difficulty": "Intermediate",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-304": {
+      "kit_id": "RX-304",
+      "order_ids": [
+        "ORD-3008",
+        "ORD-3008-A"
+      ],
+      "kit_name": "Wi-Fi Camera Rover",
+      "age_group": "13-17",
+      "difficulty": "Advanced",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Wire camera module, Wi-Fi board, and motor controller; test video stream latency and power stability.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-401": {
+      "kit_id": "RX-401",
+      "order_ids": [
+        "ORD-3009",
+        "ORD-3009-A"
+      ],
+      "kit_name": "Robotic Arm Builder",
+      "age_group": "13-17",
+      "difficulty": "Advanced",
+      "stages": [
+        {
+          "stage_name": "Joint Assembly",
+          "technical_content": "Assemble base, shoulder, elbow, and gripper joints; verify servo horn positions at neutral angle before fastening.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Calibrate servo ranges and gripping force, then run pick-and-place sequences to validate repeatability.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-402": {
+      "kit_id": "RX-402",
+      "order_ids": [
+        "ORD-3010",
+        "ORD-3010-A"
+      ],
+      "kit_name": "Robotic Arm Precision Kit",
+      "age_group": "14-18",
+      "difficulty": "Advanced",
+      "stages": [
+        {
+          "stage_name": "Joint Assembly",
+          "technical_content": "Assemble base, shoulder, elbow, and gripper joints; verify servo horn positions at neutral angle before fastening.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Calibrate servo ranges and gripping force, then run pick-and-place sequences to validate repeatability.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-501": {
+      "kit_id": "RX-501",
+      "order_ids": [
+        "ORD-3011",
+        "ORD-3011-A"
+      ],
+      "kit_name": "Maze Solver Bot",
+      "age_group": "12-16",
+      "difficulty": "Intermediate",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-601": {
+      "kit_id": "RX-601",
+      "order_ids": [
+        "ORD-3012",
+        "ORD-3012-A"
+      ],
+      "kit_name": "Solar Tracker Robot",
+      "age_group": "11-15",
+      "difficulty": "Intermediate",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect solar panel regulator, battery buffer, and light sensors; validate charge current under different light conditions.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-701": {
+      "kit_id": "RX-701",
+      "order_ids": [
+        "ORD-3013",
+        "ORD-3013-A"
+      ],
+      "kit_name": "Gesture Control Bot",
+      "age_group": "12-16",
+      "difficulty": "Advanced",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Tune gesture recognition thresholds and map gestures to movement commands with debounce logic.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-801": {
+      "kit_id": "RX-801",
+      "order_ids": [
+        "ORD-3014",
+        "ORD-3014-A"
+      ],
+      "kit_name": "Humanoid Balance Bot",
+      "age_group": "14-18",
+      "difficulty": "Advanced",
+      "stages": [
+        {
+          "stage_name": "Frame and Limb Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Tune PID balance parameters and gyroscope offsets for stable standing and walking cycles.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RX-901": {
+      "kit_id": "RX-901",
+      "order_ids": [
+        "ORD-3015",
+        "ORD-3015-A"
+      ],
+      "kit_name": "Autonomous Delivery Bot",
+      "age_group": "14-18",
+      "difficulty": "Advanced",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Validate path-planning checkpoints and obstacle reroute behavior in a mapped indoor route.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RB-110": {
+      "kit_id": "RB-110",
+      "order_ids": [
+        "ORD-3016",
+        "ORD-3016-A"
+      ],
+      "kit_name": "Beginner Buggy Bot",
+      "age_group": "8-12",
+      "difficulty": "Beginner",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RB-111": {
+      "kit_id": "RB-111",
+      "order_ids": [
+        "ORD-3017",
+        "ORD-3017-A"
+      ],
+      "kit_name": "Beginner Buggy Bot Plus",
+      "age_group": "8-12",
+      "difficulty": "Beginner",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "RB-111A": {
+      "kit_id": "RB-111A",
+      "order_ids": [
+        "ORD-3018",
+        "ORD-3018-A"
+      ],
+      "kit_name": "Beginner Buggy Bot Smart",
+      "age_group": "9-13",
+      "difficulty": "Intermediate",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "EDU-220": {
+      "kit_id": "EDU-220",
+      "order_ids": [
+        "ORD-3019",
+        "ORD-3019-A"
+      ],
+      "kit_name": "STEM Classroom Rover",
+      "age_group": "10-14",
+      "difficulty": "Beginner",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    },
+    "EDU-221": {
+      "kit_id": "EDU-221",
+      "order_ids": [
+        "ORD-3020",
+        "ORD-3020-A"
+      ],
+      "kit_name": "STEM Classroom Rover AI",
+      "age_group": "12-16",
+      "difficulty": "Intermediate",
+      "stages": [
+        {
+          "stage_name": "Mechanical Assembly",
+          "technical_content": "Assemble chassis, mount motors with equal spacing, and secure wheel alignment to reduce drag and vibration.",
+          "story_explanation": "Think of building a strong robot body like building a race car that must stay balanced on every turn."
+        },
+        {
+          "stage_name": "Electronics Wiring",
+          "technical_content": "Connect battery pack, motor driver, and sensors using the wiring map. Verify polarity and continuity before powering on.",
+          "story_explanation": "Your robot's wires are like nerves sending signals so every part knows exactly what to do."
+        },
+        {
+          "stage_name": "Testing and Calibration",
+          "technical_content": "Upload base firmware, run movement tests, and calibrate sensor thresholds for stable behavior in real environments.",
+          "story_explanation": "Now your robot is in training camp, learning to react quickly and move confidently like a skilled explorer."
+        }
+      ]
+    }
+  }
+}

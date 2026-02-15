@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brand X Learning Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header>
+      <p class="badge">UNIFIED ROBOTICS ASSISTANT</p>
+      <h1>Brand X <span>Learning Assistant</span></h1>
+      <p class="sub">Personalized robotics guidance based on your kit or order ID.</p>
+    </header>
+
+    <section class="panel">
+      <label for="identifier">Order ID / Kit ID</label>
+      <div class="row">
+        <input id="identifier" placeholder="Example: RX-101 or ORD-2201" />
+        <button id="startBtn">Start Session</button>
+      </div>
+      <p id="kitMeta" class="meta"></p>
+    </section>
+
+    <section class="panel chat-panel">
+      <div id="chatWindow" class="chat-window"></div>
+      <div class="row">
+        <input id="message" placeholder="Ask about assembly, circuits, sensors, or concepts" />
+        <button id="sendBtn">Send</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
